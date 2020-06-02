@@ -1,0 +1,30 @@
+body{
+  background-color: #B3B3B3;
+}
+header{
+  background-color: #00b7ea;
+  text-align: center;
+  font-size: 150%;
+}
+h1{
+    color:white;
+}
+a{
+  font-size: 150%;
+
+}
+h2{
+  color: #666666;
+  background-color: #00b7ea;
+
+}
+section{
+    display: inline-block;
+    float: left;
+    margin-right: 2%;
+    font-size: 105%;
+}
+footer{
+  clear: both;
+  background-color: #00b7ea;
+}

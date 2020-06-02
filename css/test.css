@@ -1,0 +1,117 @@
+body{
+	margin: 0.1%;
+	padding: 1%;
+}
+
+header{
+	height: 150px;
+	background-color: #FFFFFF;
+	background-image: url(../img/flywheel.jpg);
+	text-align: center;
+	padding: 2px;
+}
+
+
+nav a:link{
+	border: solid #FFFFFF 2px;
+	border-radius: 5%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 60px;
+	padding-right: 60px;
+	margin: 50px;
+	opacity: 50%;
+
+	background-color:#FFFFFF;
+	text-decoration: none;
+	text-align:center;
+	display: inline;
+	cursor:pointer;
+}
+
+
+
+nav a:visited{
+	background-color: #FFFFFF;
+	border: solid #FFFFFF 2px;
+	opacity: 50%;
+
+}
+
+
+nav a:hover{
+	background-color: #FFFFFF;
+	opacity: 100%;
+	border: solid #FFFFFF 2px;
+
+}
+
+
+nav a.active{
+	background-color: #FFFFFF;
+	opacity: 100%;
+}
+
+h1{
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 20px;
+	margin-bottom: 30px;
+}
+
+
+img{
+	width: 250px;
+	height: 150px;
+	display: block;
+	border: #000000 solid 2px;
+	margin: 30px;
+
+
+}
+
+#snimka1:hover {
+	border: #FFFFFF solid 2px;
+
+}
+#snimka2:hover {
+	border: #FFFFFF solid 2px;
+
+}
+#snimka3:hover {
+	border: #FFFFFF solid 2px;
+
+}
+
+.left{
+	width: 20%;
+	height: 600px;
+	display: inline-block;
+	overflow: auto;
+	background: #05a661;
+	padding-left: 3px;
+	padding-right: 45px;
+	float: left;
+	margin-right: 20px;
+
+
+}
+
+
+.left img{
+	width: 250px;
+	height: 150px;
+	display: block;
+	border: solid #000000 2px;
+	overflow: auto;
+
+}
+
+.right{
+	width: 65%;
+	height: 600px;
+	display: inline-block;
+}

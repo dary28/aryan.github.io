@@ -1,0 +1,44 @@
+body{
+  background-color: #B3B3B3;
+  background-image: url('../img/1.jpg');
+  background-size: contain;
+  opacity: 0.5104;
+  background-repeat: no-repeat
+}
+header,footer{
+  background-color: #00b7ea;
+  text-align: center;
+  font-size: 150%;
+  background: linear-gradient(#B31211,#FFFF22);
+}
+h1 {
+    color:white;
+}
+a{
+  font-size: 150%;
+
+}
+h2{
+  color: #666666;
+  background-color: #00b7ea;
+
+}
+.half{
+    display: inline-block;
+    float: left;
+    margin-right: 10%;
+    font-size: 155%;
+}
+.full{
+  clear: both;
+  font-size: 150%;
+}
+footer{
+  clear: both;
+
+}
+nav a{
+  display: inline-block;
+  background-color: #FFFFFF;
+  width:22%
+}
